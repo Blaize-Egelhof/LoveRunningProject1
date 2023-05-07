@@ -195,7 +195,7 @@ hr {
 /* event times */
 
 #times {
-    background-image: url('../images/times-background.webp');
+    background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -282,6 +282,15 @@ footer {
 
     }
 
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+
+
+    }
+
     hr {
         display: none;
     }
@@ -297,4 +306,26 @@ footer {
         margin-bottom: 20 px;
         line-height: 25 px;
     }
-}
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .right-about-heading h2,
+    .left-about-heading h2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .right-about-heading h2,
+    .left-about-heading h2 {
+        text-align: center;
+        padding: 0 20px;
+    }
